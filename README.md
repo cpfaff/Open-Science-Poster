@@ -17,7 +17,9 @@ A makefile helps you to compile, clean and archive the document.
 The layout of the document is close to common scientific poster
 formats. The layout is inspired by the poster layout of the [Jacobs
 University](https://teamwork.jacobs-university.de:8443/confluence/display/CoPand
-BiG/LaTeX+Poster)
+BiG/LaTeX+Poster) and extends upon it for example with colour schemes.
+
+
 
 For an example see the PDF file in the repository or the documentation in the
 [wiki](https://github.com/cpfaff/Open-Science-Poster/wiki). The layout can help
@@ -31,7 +33,7 @@ collaborative poster writing on GitHub and much more.
 
 ### Logo
 
-![Open-Science-Poster-PDF-Header](https://dl.dropbox.com/u/844606/Open-Science-Poster-Documentation/open-science-posters-logo.png)
+![Open-Science-Poster-PDF-Header](https://dl.dropbox.com/u/844606/Open-Science-Poster-Documentation/open_science_posters_logo_long.png)
 
 ## Self-promotion
 
