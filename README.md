@@ -33,7 +33,7 @@ collaborative poster writing on GitHub and much more.
 
 ### Logo
 
-![Open-Science-Poster-PDF-Header](https://dl.dropbox.com/u/844606/Open-Science-Poster-Documentation/open_science_posters_logo_long.png)
+![Open-Science-Poster-PDF-Header](https://dl.dropbox.com/u/844606/Open-Science-Poster-Documentation/open_science_posters_logo_long_thumbnail.png)
 
 ## Self-promotion
 
