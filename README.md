@@ -12,10 +12,14 @@ production of executable documents which enhances the reproducibility of your
 research.
 
 The Open-Science-Poster offers a clean and logical folder structure and
-some example data of typical things required to typeset your poster. A
-makefile helps you to compile, clean and archive the document. The layout
-of the document is close to common scientific poster formats. For an
-example see the PDF file in the repository or the documentation in the
+some example data of typical things required to typeset your poster.
+A makefile helps you to compile, clean and archive the document.
+The layout of the document is close to common scientific poster
+formats. The layout is inspired by the poster layout of the [Jacobs
+University](https://teamwork.jacobs-university.de:8443/confluence/display/CoPand
+BiG/LaTeX+Poster)
+
+For an example see the PDF file in the repository or the documentation in the
 [wiki](https://github.com/cpfaff/Open-Science-Poster/wiki). The layout can help
 to prepare figures and tables for the poster publication. But you can also use
 the document just to produce nice looking, poster like formatted documents.
