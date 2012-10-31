@@ -1,38 +1,37 @@
 ## About
 
-### Open-Science-Paper 
+### Open-Science-Poster 
 
-The Open-Science-Paper
-[repository](https://github.com/cpfaff/Open-Science-Paper) contains a LaTeX
+The Open-Science-Poster
+[repository](https://github.com/cpfaff/Open-Science-Poster) contains a LaTeX
 document which is thought to be forked and used for scientific, collaborative
-paper writing on GitHub. The Open-Science-Paper combines the LaTeX typesetting
+poster writing on GitHub. The Open-Science-Poster combines the LaTeX typesetting
 capabilities with the power of the R programming language for statistics, using
 the [Knitr](http://yihui.name/knitr/) package. This combination allows for the
 production of executable documents which enhances the reproducibility of your
 research.
 
-The Open-Science-Paper offers a clean and logical folder structure and
-some example data of typical things required to typeset your paper. A
+The Open-Science-Poster offers a clean and logical folder structure and
+some example data of typical things required to typeset your poster. A
 makefile helps you to compile, clean and archive the document. The layout
-of the document is close to common scientific paper formats. For an
+of the document is close to common scientific poster formats. For an
 example see the PDF file in the repository or the documentation in the
-[wiki](https://github.com/cpfaff/Open-Science-Paper/wiki). The layout can help
-to prepare figures and tables for publication. But you can also use the document
-just to produce nice looking, paper like formatted documents.
+[wiki](https://github.com/cpfaff/Open-Science-Poster/wiki). The layout can help
+to prepare figures and tables for the poster publication. But you can also use
+the document just to produce nice looking, poster like formatted documents.
 
-
-The project is documented in detail on the Open-Science-Paper
-[wiki](https://github.com/cpfaff/Open-Science-Paper/wiki). It covers information
-about how to get started with the document, a workflow for collaborative paper
-writing on GitHub and much more.
+The project is documented in detail on the Open-Science-Poster
+[wiki](https://github.com/cpfaff/Open-Science-Poster/wiki). It covers
+information about how to get started with the document, a workflow for
+collaborative poster writing on GitHub and much more.
 
 ### Logo
 
-![Open-Science-Paper-PDF-Header](https://dl.dropbox.com/u/844606/Open-Science-Paper-Documentation/open-science-papers-logo.png)
+![Open-Science-Poster-PDF-Header](https://dl.dropbox.com/u/844606/Open-Science-Poster-Documentation/open-science-posters-logo.png)
 
 ## Self-promotion
 
-Do you like the Open-Science-Paper repository? You are welcome
+Do you like the Open-Science-Poster repository? You are welcome
 to follow me on [GitHub](https://github.com/cpfaff) and or
 [Twitter](http://twitter.com/ctpfaff).
 
