@@ -1,0 +1,140 @@
+%%%------------------------------------------------------------------------------------%%
+%%%------------------------------------------------------------------------------------%%
+%%% Content: Open-Science-Poster LaTeX Scaffold 
+%%% Usage: Collaborative scientific poster writing 
+%%% Author: Claas-Thido Pfaff
+%%%------------------------------------------------------------------------------------%%
+%%%------------------------------------------------------------------------------------%%
+
+%%%------------------------------------------------------------------------------%%%
+%%% Document class: open_science_poster (Based on Beamer and Beamer poster) %%%
+%%%------------------------------------------------------------------------------%%%
+%%
+%
+
+\documentclass[green, noheadsep, final]{subdocuments/open_science_poster}
+
+% Class options:
+% 	colors: gray, blue, green, red, orange (default = gray) 
+% 	head separator: default on ( switch of with: noheadsep)   
+
+%%%------------------------------------------------------------------------------%%%
+%%% Load user options %%%
+%%%------------------------------------------------------------------------------%%%
+
+\input{subdocuments/open_science_poster.sty} 
+
+%%%------------------------------------------------------------------------------%%%
+%%% Begin the document %%%
+%%%------------------------------------------------------------------------------%%%
+
+\begin{document}
+
+%%%--------------------------------------------------------------%%%
+%%% Document preparations %%%
+%%%--------------------------------------------------------------%%%
+%%
+%
+
+%%%-------------------------------------------------%%%
+%%% Preferences for Knitr %%%
+%%%-------------------------------------------------%%%
+
+<<global_knitr_options, child='subdocuments/osp_global_knitr_options.Rnw', eval=TRUE>>=
+@
+
+
+%%%--------------------------------------------------------------%%%
+%%% Document content %%%
+%%%--------------------------------------------------------------%%%
+%%
+%
+
+\begin{frame}[t]
+	\begin{columns}[t] 
+		%% First column %%%
+		\begin{column}{0.28\paperwidth} 
+
+			\begin{alertblock}{Abstract}
+				\lipsum[1]
+			\end{alertblock}
+
+			\begin{alertblock}{Questions}
+				\begin{itemize}
+					\item One?
+					\item Two?
+					\item Three?
+				\end{itemize}
+			\end{alertblock}
+
+			\begin{block}{Introduction}
+				\lipsum[1-2]	
+			\end{block}
+
+			\begin{exampleblock}{}
+				\begin{figure}[H] % {{{
+				% Label fig:test_plot
+					\centering
+					\begin{tikzpicture}
+						\node[pictureframe]{%    
+							\begin{minipage}{0.95\columnwidth}%
+								\begin{center}
+									<<test_plot, cache=T, fig.width=6, fig.height=5, out.width='0.9\\textwidth', echo=FALSE>>=
+										suppressPackageStartupMessages(library(ggplot2))
+
+										ggplot(cars, aes(x=dist, y=speed)) +
+											geom_point(shape=1) + geom_smooth(method = "lm", size = 1, colour=gray) +
+											theme_bw() +
+											opts(panel.grid.major=theme_blank(), panel.grid.minor=theme_blank()) 
+									@
+								\end{center}
+							\end{minipage}
+						};
+					\end{tikzpicture}
+					 \caption{Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+					 commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+					 dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+					 pellentesque eu, pretium quis, sem.}
+				\label{fig:test_plot}
+				\end{figure} % }}}
+			\end{exampleblock}
+
+		%% End first column %%%
+		\end{column}
+
+
+		%% Second column %%%
+		\begin{column}{0.28\paperwidth}
+
+			\begin{block}{Material and Methods}
+				\lipsum[2]
+
+
+			\end{block}
+
+		%% End second column %%%
+		\end{column}
+
+
+		%% Third column %%%
+		\begin{column}{0.28\paperwidth}
+
+			\begin{alertblock}{Answers}
+				\begin{itemize}
+					\item One!
+					\item Two!
+					\item Three!
+				\end{itemize}
+			\end{alertblock}
+
+			\begin{exampleblock}{}
+				\lipsum[2-3]	
+			\end{exampleblock}
+
+		\end{column}  
+
+
+	\end{columns}
+\end{frame}
+
+\end{document}
