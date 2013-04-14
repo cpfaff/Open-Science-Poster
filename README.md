@@ -26,9 +26,15 @@ The project is documented in detail on the Open-Science-Poster
 information about how to get started with the document, a workflow for
 collaborative poster writing on GitHub and much more.
 
-### Logo
+## Some impressions
+
+## Logo
 
 ![Open-Science-Poster-PDF-Header](https://dl.dropbox.com/u/844606/Open-Science-Poster-Documentation/open_science_posters_logo_long_thumbnail.png)
+
+## Color schemes
+
+![Orange color scheme](https://dl.dropbox.com/u/844606/Open-Science-Poster-Documentation/poster_example_flavor_orange.png)
 
 ## See also
 
