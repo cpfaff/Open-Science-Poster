@@ -35,8 +35,8 @@ collaborative poster writing on GitHub and much more.
 The Open-Science-Poster is one document of a series of documents that are in
 preparation. You might also be interested in one of the following repositories.
 
-- [Open-Science-Thesis](https://github.com/cpfaff/Open-Science-Paper) (Status: Usable, Wiki: Available)
-- [Open-Science-Poster](https://github.com/cpfaff/Open-Science-Thesis) (Status: In preparation, Wiki: In preparation)
+- [Open-Science-Paper](https://github.com/cpfaff/Open-Science-Paper) (Status: Usable, Wiki: Available)
+- [Open-Science-Thesis](https://github.com/cpfaff/Open-Science-Thesis) (Status: In preparation)
 
 
 ## Self-promotion
