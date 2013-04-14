@@ -10,7 +10,7 @@
 DOCUMENT = open_science_poster
 
 # Dependencies maindocument
-DEPENDENCIES = $(DOCUMENT).Rnw subdocuments/open_science_poster.cls subdocuments/open_science_poster.sty 
+DEPENDENCIES = $(DOCUMENT).Rnw subdocuments/open_science_poster.* subdocuments/*.Rnw
 
 # Used Programs
 KNITR = knit
@@ -44,7 +44,8 @@ CLEANFILES = graphics/dynamic/* cache/* *.xdy *.nav *.snm *tikzDictionary *.idx 
 all: $(DOCUMENT).pdf 
 
 $(DOCUMENT).pdf: $(DEPENDENCIES)  
-	$(KNITR) $(DOCUMENT).Rnw $(DOCUMENT).tex --pdf
+	$(KNITR) $(DOCUMENT).Rnw $(DOCUMENT).tex --no-convert
+	$(PDFLATEX) $(DOCUMENT).tex
 	$(PDFLATEX) $(DOCUMENT).tex
 	$(BIBTEX) $(DOCUMENT)
 	$(PDFLATEX) $(DOCUMENT).tex
