@@ -10,7 +10,7 @@
 DOCUMENT = open_science_poster
 
 # Dependencies maindocument
-DEPENDENCIES = $(DOCUMENT).Rnw subdocuments/open_science_poster.* subdocuments/*.Rnw
+DEPENDENCIES = $(DOCUMENT).Rnw usr/subdocuments/open_science_poster.* usr/subdocuments/*.Rnw
 
 # Used Programs
 KNITR = knit
@@ -35,10 +35,10 @@ LAYOUTFALLENTRIGHT = osp_layout_t_fallen_left.Rnw
 
 # Archive document
 ARCHNAME = $(DOCUMENT)_$(DATE).tar.gz
-ARCHFILES = $(DOCUMENT).pdf $(DOCUMENT).Rnw subdocuments data graphics makefile
+ARCHFILES = $(DOCUMENT).pdf $(DOCUMENT).Rnw usr makefile
 
 # Clean up the document folder
-CLEANFILES = graphics/dynamic/* cache/* *.xdy *.nav *.snm *tikzDictionary *.idx *.mtc* *.glo *.maf *.ptc *.tikz *.lot *.dpth *.figlist *.dep *.log *.makefile *.out *.map *.tex *.toc *.aux *.tmp *.bbl *.blg *.lof *.acn *.acr *.alg *.glg *.gls *.ilg *.ind *.ist *.slg *.syg *.syi minimal.acn minimal.dvi minimal.ist minimal.syg minimal.synctex.gz *.bcf *.run.xml *-blx.bib  
+CLEANFILES = usr/graphics/dynamic/* usr/cache/* *.xdy *.nav *.snm *tikzDictionary *.idx *.mtc* *.glo *.maf *.ptc *.tikz *.lot *.dpth *.figlist *.dep *.log *.makefile *.out *.map *.tex *.toc *.aux *.tmp *.bbl *.blg *.lof *.acn *.acr *.alg *.glg *.gls *.ilg *.ind *.ist *.slg *.syg *.syi minimal.acn minimal.dvi minimal.ist minimal.syg minimal.synctex.gz *.bcf *.run.xml *-blx.bib  
 
 # General rule
 all: $(DOCUMENT).pdf 

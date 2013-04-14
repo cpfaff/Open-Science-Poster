@@ -12,7 +12,7 @@
 %%
 %
 
-\documentclass[blue]{subdocuments/open_science_poster}
+\documentclass[blue]{usr/subdocuments/open_science_poster}
 
 % Class options:
 % 	colors: gray, blue, green, red, orange (default = grey) 
@@ -23,7 +23,7 @@
 %%% Load user options %%%
 %%%------------------------------------------------------------------------------%%%
 
-\input{subdocuments/open_science_poster.sty} 
+\input{usr/subdocuments/open_science_poster.sty} 
 
 %%%------------------------------------------------------------------------------%%%
 %%% Begin the document %%%
@@ -41,7 +41,7 @@
 %%% Preferences for Knitr %%%
 %%%-------------------------------------------------%%%
 
-<<global_knitr_options, child='subdocuments/osp_global_knitr_options.Rnw', eval=TRUE>>=
+<<global_knitr_options, child='usr/subdocuments/osp_global_knitr_options.Rnw', eval=TRUE>>=
 @
 
 

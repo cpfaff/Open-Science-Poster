@@ -567,7 +567,7 @@ spacing=false]{microtype}
 			\begin{column}{\logocolumnwidth}
 				\begin{center}
 					\vspace{1em}
-					\includegraphics[scale=0.75]{graphics/open_science_posters_logo_long.png}
+					\includegraphics[scale=0.75]{usr/graphics/open_science_posters_logo_long.png}
 				\end{center}
 			\end{column}
 			% title column
