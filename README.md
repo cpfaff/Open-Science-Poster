@@ -1,6 +1,6 @@
 ## About
 
-### Open-Science-Poster 
+### Open-Science-Poster
 
 The Open-Science-Poster
 [repository](https://github.com/cpfaff/Open-Science-Poster) contains a LaTeX
@@ -17,12 +17,9 @@ poster. A makefile helps you to compile, clean and archive the
 document. The layout of the document is close to common scientific
 poster formats. It is inspired by the layout of the [Jacobs
 University](https://teamwork.jacobs-university.de:8443/confluence/display/CoPand
-BiG/LaTeX+Poster) and extends upon.
-
-For an example see the PDF file in the repository or the documentation in the
-[wiki](https://github.com/cpfaff/Open-Science-Poster/wiki). The layout can help
-to prepare figures and tables for the poster publication. But you can also use
-the document just to produce nice looking, poster like formatted documents.
+BiG/LaTeX+Poster) and extends upon. For an example see the
+PDF file in the repository or the documentation in the
+[wiki](https://github.com/cpfaff/Open-Science-Poster/wiki).
 
 The project is documented in detail on the Open-Science-Poster
 [wiki](https://github.com/cpfaff/Open-Science-Poster/wiki). It covers
@@ -32,6 +29,15 @@ collaborative poster writing on GitHub and much more.
 ### Logo
 
 ![Open-Science-Poster-PDF-Header](https://dl.dropbox.com/u/844606/Open-Science-Poster-Documentation/open_science_posters_logo_long_thumbnail.png)
+
+## See also
+
+The Open-Science-Poster is one document of a series of documents that are in
+preparation. You might also be interested in one of the following repositories.
+
+- [Open-Science-Thesis](https://github.com/cpfaff/Open-Science-Paper) (Status: Usable, Wiki: Available)
+- [Open-Science-Poster](https://github.com/cpfaff/Open-Science-Thesis) (Status: In preparation, Wiki: In preparation)
+
 
 ## Self-promotion
 
